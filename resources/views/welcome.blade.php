@@ -59,7 +59,7 @@
       <td>{{$blg->title}}</td>
       <td>{{$blg->author}}</td>
       <td>
-        <a href="{{ url('viewfullpost/'.$blg->id)}}"><button class="btn btn-outline-success" >View</button></a> 
+        <!-- <a href="{{ url('viewfullpost/'.$blg->id)}}"><button class="btn btn-outline-success" >View</button></a>  -->
         <a href="{{ url('editfullpost/'.$blg->id)}}"><button class="btn btn-outline-dark" >Edit</button></a> 
         <a href="{{ url('deletefullpost/'.$blg->id)}}"><button onclick="return confirm('Are you sure?');" class="btn btn-outline-danger" >Delete</button></a> 
     
@@ -72,6 +72,12 @@
   
   </tbody>
 </table>
+
+<div class="row">
+
+{{$blog->links()}}
+
+</div>
 
 </div>
 

@@ -20,7 +20,7 @@ use App\Http\Controllers\CreatePostController;
 
 Route::get('/','App\Http\Controllers\WelcomeController@welcome');
 Route::get('/create', 'App\Http\Controllers\CreatePost@create');
-Route::get('/createPost1','App\Http\Controllers\CreatePostController@logic');
+// Route::get('/createPost1','App\Http\Controllers\CreatePostController@logic');
 Route::Post('/createPost','App\Http\Controllers\CreatePostController@createblog');
 Route::get('/viewfullpost/{id}','App\Http\Controllers\ViewPostController@view');
 Route::get('/deletefullpost/{id}','App\Http\Controllers\DeletePostController@delete');

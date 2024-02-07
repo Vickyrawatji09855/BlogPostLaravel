@@ -39,10 +39,6 @@
 </nav>
 
 
-
-
-
-
 <h1>Title</h1><br>
 <h3>{{$blog->title}}</h3><br>
 
@@ -54,6 +50,7 @@
 
 <h1>Publication Date</h1>
 <h3>{{$blog->Publication_Date }}</h3><br>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
